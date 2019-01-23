@@ -1,0 +1,8 @@
+{
+  "presets": ["es2015", "stage-0"],
+  "plugins": [
+    "rewire",
+    "transform-runtime",
+    "add-module-exports"
+  ]
+}
