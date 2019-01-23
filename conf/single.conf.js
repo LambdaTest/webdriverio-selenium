@@ -13,7 +13,11 @@ exports.config = {
     version: '70.0',
     platform: 'WIN10',
     name: 'webdriverIO-single_test',
-    build: 'webdriverIO-lambdatest'
+    build: 'webdriverIO-lambdatest',
+    visual:true,
+    video:true,
+    console:true,
+    network:true
   }],
 
   logLevel: 'verbose',

@@ -11,7 +11,11 @@ exports.config = {
   maxInstances: 10,
   commonCapabilities: {
     name: 'webdriverIO-parallel_test',
-    build: 'webdriverIO-lambdatest'
+    build: 'webdriverIO-lambdatest',
+    visual:true,
+    video:true,
+    console:true,
+    network:true
   },
 
   capabilities: [{
