@@ -1,5 +1,5 @@
 # webdriverio-Lambdatest
-[WebdriverIO](http://webdriver.io/) Integration with BrowserStack.
+[WebdriverIO](http://webdriver.io/) Integration with LambdaTest.
 
 
 ## Setup
