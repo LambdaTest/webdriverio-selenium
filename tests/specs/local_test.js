@@ -3,7 +3,7 @@ var assert = require('assert');
 describe('Lambdatest Local Testing', function() {
   it('can check tunnel working', function () {
     browser
-      .url('http://lt-local.com:8080/check')
+      .url('http://localhost.lambdatest.com/todo.html')
       .click('*[name="li1"]')
       .click('*[name="li2"]')
       .setValue('*[id="sampletodotext"]','Lambdatest\n');
