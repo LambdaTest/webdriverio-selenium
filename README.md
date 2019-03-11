@@ -1,37 +1,37 @@
 # webdriverio-selenium-sample
 [WebdriverIO](http://webdriver.io/) Integration with LambdaTest
+
 ![LambdaTest Logo](https://www.lambdatest.com/images/logo.svg)
+
 <img src = "https://webdriver.io/img/webdriverio.png" height = "100">
-----
 
 ## Environment Setup
 
-    1. Global Dependencies
-        * Install [Node.js](https://nodejs.org/en/)
-        * Or Install Node.js with [Homebrew](http://brew.sh/)
-        ```
-        $ brew install node
-        ```
-    2. LambdaTest Credentials
-        * Set LambdaTest username and access key in environment variables.
-        It can be obtained from [LambdaTest dashboard](https://automation.lambdatest.com/)    
-        example:
-        
-        - For linux/mac
-        ```
-        export LT_USERNAME="YOUR_USERNAME"
-        export LT_ACCESS_KEY="YOUR ACCESS KEY"
-        ```
-        
-        - For Windows
-        ```
-        set LT_USERNAME="YOUR_USERNAME"
-        set LT_ACCESS_KEY="YOUR ACCESS KEY"
-        ```
-    3. Setup
-        * Clone the repo
-        * Install dependencies `npm install`
-        * Update `*.conf.js` files inside the `conf/` directory with your LambdaTest Username and Access Key
+1. Global Dependencies
+   * Install [Node.js](https://nodejs.org/en/)
+   * Or Install Node.js with [Homebrew](http://brew.sh/)
+     ```
+      $ brew install node
+      ```
+2. LambdaTest Credentials
+   * Set LambdaTest username and access key in environment variables. It can be obtained from [LambdaTest dashboard](https://automation.lambdatest.com/)    
+    example:
+   - For linux/mac
+    ```
+    export LT_USERNAME="YOUR_USERNAME"
+    export LT_ACCESS_KEY="YOUR ACCESS KEY"
+
+    ```
+    - For Windows
+    ```
+    set LT_USERNAME="YOUR_USERNAME"
+    set LT_ACCESS_KEY="YOUR ACCESS KEY"
+
+    ```
+3. Setup
+   * Clone the repo
+   * Install dependencies `npm install`
+   * Update `*.conf.js` files inside the `conf/` directory with your LambdaTest Username and Access Key
 
 ## Running your tests
 - To run a single test, run `npm run single`
