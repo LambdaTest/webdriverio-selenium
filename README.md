@@ -1,10 +1,11 @@
 # webdriverio-selenium-sample
 [WebdriverIO](http://webdriver.io/) Integration with LambdaTest
 ![LambdaTest Logo](https://www.lambdatest.com/images/logo.svg)
-
 <img src = "https://webdriver.io/img/webdriverio.png" height = "100">
+----
 
 ## Environment Setup
+
     1. Global Dependencies
         * Install [Node.js](https://nodejs.org/en/)
         * Or Install Node.js with [Homebrew](http://brew.sh/)
