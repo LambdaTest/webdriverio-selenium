@@ -1,6 +1,5 @@
 # webdriverio-selenium-sample
 [WebdriverIO](http://webdriver.io/) Integration with LambdaTest
-
 ![LambdaTest Logo](https://www.lambdatest.com/images/logo.svg)
 
 <img src = "https://webdriver.io/img/webdriverio.png" height = "100">
@@ -13,19 +12,20 @@
         $ brew install node
         ```
     2. LambdaTest Credentials
-        * Set LambdaTest username and access key in environment variables. It can be obtained from [LambdaTest dashboard](https://automation.lambdatest.com/)    
+        * Set LambdaTest username and access key in environment variables.
+        It can be obtained from [LambdaTest dashboard](https://automation.lambdatest.com/)    
         example:
+        
         - For linux/mac
         ```
         export LT_USERNAME="YOUR_USERNAME"
         export LT_ACCESS_KEY="YOUR ACCESS KEY"
-
         ```
+        
         - For Windows
         ```
         set LT_USERNAME="YOUR_USERNAME"
         set LT_ACCESS_KEY="YOUR ACCESS KEY"
-
         ```
     3. Setup
         * Clone the repo
