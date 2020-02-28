@@ -1,4 +1,4 @@
-# webdriverio-selenium-sample
+# Webdriverio Selenium Sample
 [WebdriverIO](http://webdriver.io/) Integration with LambdaTest
 
 ![LambdaTest Logo](https://www.lambdatest.com/images/logo.svg)
