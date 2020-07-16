@@ -1,4 +1,4 @@
-# Webdriverio Selenium Sample
+# Webdriverio Selenium Sample: Version 4.14.2
 [WebdriverIO](http://webdriver.io/) Integration with LambdaTest
 
 ![LambdaTest Logo](https://www.lambdatest.com/images/logo.svg)
