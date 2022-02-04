@@ -26,6 +26,7 @@
     "webdriverio": "^4.14.2"
   },
   "devDependencies": {
+    "@wdio/cli": "^7.16.14",
     "wdio-mocha-framework": "^0.6.4"
   }
 }
