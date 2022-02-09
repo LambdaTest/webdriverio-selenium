@@ -1,44 +1,72 @@
-# Webdriverio Selenium Sample: Version 4.14.2
-[WebdriverIO](http://webdriver.io/) Integration with LambdaTest
+# WebdriverIO Selenium Tutorial: Version 4.14.2
 
-![LambdaTest Logo](https://www.lambdatest.com/images/logo.svg)
+![LAMBDATEST Logo](https://www.lambdatest.com/resources/images/With-WebdriverIO.jpg)
 
-<img src = "https://webdriver.io/img/webdriverio.png" height = "100">
+## Prerequisites
 
-## Environment Setup
+1. Install npm.
 
-1. Global Dependencies
-   * Install [Node.js](https://nodejs.org/en/)
-   * Or Install Node.js with [Homebrew](http://brew.sh/)
-     ```
-      $ brew install node
-      ```
-2. LambdaTest Credentials
-   * Set LambdaTest username and access key in environment variables. It can be obtained from [LambdaTest dashboard](https://automation.lambdatest.com/)    
-    example:
-   - For linux/mac
-    ```
-    export LT_USERNAME="YOUR_USERNAME"
-    export LT_ACCESS_KEY="YOUR ACCESS KEY"
+```
+sudo apt install npm
+```
 
-    ```
-    - For Windows
-    ```
-    set LT_USERNAME="YOUR_USERNAME"
-    set LT_ACCESS_KEY="YOUR ACCESS KEY"
+2. Install NodeJS.
 
-    ```
-3. Setup
-   * Clone the repo
-   * Install dependencies `npm install`
-   * Update `*.conf.js` files inside the `conf/` directory with your LambdaTest Username and Access Key
+```
+sudo apt install nodejs
+```
 
-## Running your tests
-- To run a single test, run `npm run single`
-- To run local tests, run `npm run local`
-- To run parallel tests, run `npm run parallel`
+## Steps to Run your First Test
 
- Know how many concurrent sessions needed by using our [Concurrency Test Calculator](https://www.lambdatest.com/concurrency-calculator?ref=github)
+Step 1. Clone the Webdriverio Selenium Repository.
+
+```
+git clone https://github.com/LambdaTest/webdriverio-selenium
+```
+
+Step 2. Inside Webdriverio Selenium sample, export the Lambda-test Credentials. You can get these from your automation dashboard.
+
+<p align="center">
+   <b>For Linux/macOS:</b>
+
+```
+export LT_USERNAME="YOUR_USERNAME"
+export LT_ACCESS_KEY="YOUR ACCESS KEY"
+```
+
+<p align="center">
+   <b>For Windows:</b>
+
+```
+set LT_USERNAME="YOUR_USERNAME"
+set LT_ACCESS_KEY="YOUR ACCESS KEY"
+```
+
+Step 3. Inside webdriverio-selenium folder install necessary packages.
+
+```
+cd webdriverio-selenium
+npm i
+```
+
+Step 4. To run your First Test.
+
+```
+npm run single
+```
+
+## See the Results
+
+You can check your test results on the [Automation Dashboard](https://automation.lambdatest.com/build).
+![Automation Testing Logs](https://www.lambdatest.com/blog/wp-content/uploads/2020/04/automation-output-nightwatch.png)
+
+## Executing Webdriverio test Parallely.
+
+1. Will use the same test script over different configration to demonstarte parallel testing. Parallel testing with webdriverio will help you to run multiple test cases simultaneously.
+
+```
+npm run parallel
+```
 
  ###  Routing traffic through your local machine
  - Set tunnel value to `true` in test capabilities
@@ -47,6 +75,10 @@
  >    - [Mac](https://www.lambdatest.com/support/docs/display/TD/Local+Testing+For+MacOS)
  >    - [Linux](https://www.lambdatest.com/support/docs/display/TD/Local+Testing+For+Linux)
 
+### Run test locally
+```
+npm run local
+```
  ### Important Note:
  Some Safari & IE browsers, doesn't support automatic resolution of the URL string "localhost". Therefore if you test on URLs like "http://localhost/" or "http://localhost:8080" etc, you would get an error in these browsers. A possible solution is to use "localhost.lambdatest.com" or replace the string "localhost" with machine IP address. For example if you wanted to test "http://localhost/dashboard" or, and your machine IP is 192.168.2.6 you can instead test on "http://192.168.2.6/dashboard" or "http://localhost.lambdatest.com/dashboard".
 
@@ -60,3 +92,4 @@
 ## Resources
 ### [SeleniumHQ Documentation](http://www.seleniumhq.org/docs/)
 ### [WebdriverIO Documentation](https://webdriver.io/docs/gettingstarted.html)
+
