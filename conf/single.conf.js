@@ -9,7 +9,7 @@ exports.config = {
   capabilities: [
     {
       browserName: "chrome",
-      version: "70.0",
+      version: "latest",
       platform: "WIN10",
       name: "webdriverIO-single_test",
       build: "webdriverIO-lambdatest",
