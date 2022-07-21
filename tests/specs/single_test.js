@@ -7,7 +7,7 @@ describe('Lambdatest Demo Test', function() {
     await firstElement.click();
     const secondElement = await browser.$('*[name="li2"]');
     await secondElement.click();
-    const input = await browser.$('*[id="sampletodotext"]','Lambdatest\n');
+    const input = await browser.$('*[id="sampletodotext"]');
     await input.setValue('Lambdatest\n');
     const title = await browser.getTitle();
     assert(title.match(/Sample page - lambdatest.com/i));
