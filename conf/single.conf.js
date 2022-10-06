@@ -29,7 +29,8 @@ exports.config = {
   connectionRetryCount: 3,
   path: "/wd/hub",
   hostname: "hub.lambdatest.com",
-  port: 80,
+  port: 443,
+  protocol: "https",
 
   framework: "mocha",
   mochaOpts: {
