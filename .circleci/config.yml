@@ -16,7 +16,6 @@ jobs:
           npm i
           npm run single
           
-
 workflows:
   my-custom-workflow:
     jobs:
