@@ -52,9 +52,9 @@ Next step is to install Selenium dependencies for Node.js using npm. Here’s th
 * Download LambdaTest tunnel binary file if you wish to test your locally hosted or privately hosted projects.
 
 > Follow our documentation on LambdaTest tunnel to know it all. OS specific instructions to download and setup tunnel binary can be found at the following links.
- * [Documentation For Windows User](https://www.lambdatest.com/support/docs/local-testing-for-windows/)
- * [Documentation For Mac User](https://www.lambdatest.com/support/docs/local-testing-for-macos/)
- * [Documentation For Linux User](https://www.lambdatest.com/support/docs/local-testing-for-linux/)
+ * [Documentation For Windows User](https://www.lambdatest.com/support/docs/local-testing-windows/)
+ * [Documentation For Mac User](https://www.lambdatest.com/support/docs/local-testing-macos/)
+ * [Documentation For Linux User](https://www.lambdatest.com/support/docs/local-testing-linux/)
 
 > Download the binary file of:
  * [LambdaTest tunnel for Windows](https://downloads.lambdatest.com/tunnel/v3/windows/64bit/LT_Windows.zip)
@@ -167,7 +167,7 @@ To stay updated with the latest features and product add-ons, visit [Changelog](
       
 ## About LambdaTest
 
-[LambdaTest](https://www.lambdatest.com/?utm_source=github&utm_medium=repo&utm_campaign=webdriverio-selenium) is a leading test execution and orchestration platform that is fast, reliable, scalable, and secure. It allows users to run both manual and automated testing of web and mobile apps across 3000+ different browsers, operating systems, and real device combinations. Using LambdaTest, businesses can ensure quicker developer feedback and hence achieve faster go to market. Over 500 enterprises and 1 Million + users across 130+ countries rely on LambdaTest for their testing needs.    
+[LambdaTest](https://www.lambdatest.com/?utm_source=github&utm_medium=repo&utm_campaign=webdriverio-selenium) is a leading AI-powered test orchestration and execution platform that is fast, reliable, scalable, and secure. It allows users to run both manual and automated testing of web and mobile apps across 3000+ different browsers, operating systems, and real device combinations. Using LambdaTest, businesses can ensure quicker developer feedback and hence achieve faster go to market. Over 500 enterprises and 1 Million + users across 130+ countries rely on LambdaTest for their testing needs.    
 
 ### Features
 
