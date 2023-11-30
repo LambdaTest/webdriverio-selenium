@@ -3,7 +3,7 @@ exports.config = {
   key: process.env.LT_ACCESS_KEY || "YOUR LAMBDATEST ACCESS KEY",
 
   updateJob: false,
-  specs: ["./tests/specs/local_test.js"],
+  specs: ["../tests/specs/local_test.js"],
   exclude: [],
 
   capabilities: [
