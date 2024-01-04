@@ -5,7 +5,7 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 tasks:
-  - init: npm install
-  - command: npm run single
+  # - init: npm install
+  - command: npm install & npm run single
 
 
