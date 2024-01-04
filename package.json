@@ -1,6 +1,6 @@
 {
   "name": "webdriverio-Lambdatest",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "readme": "WendriverIO Integration with [Lambdatest](https://www.Lambdatest.com)",
   "description": "Selenium examples for WebdriverIO and Lambdatest Automate",
   "scripts": {
@@ -23,8 +23,8 @@
   "bugs": {},
   "homepage": "https://github.com/Lambdatest/webdriverio-Lambdatest#readme",
   "dependencies": {
-    "@wdio/cli": "^5.20.1",
-      "@wdio/local-runner": "^5.20.1",
-      "@wdio/mocha-framework": "^5.18.7"
+    "@wdio/cli": "^8.27.1",
+    "@wdio/local-runner": "^8.27.0",
+    "@wdio/mocha-framework": "^8.27.0"
   }
 }
