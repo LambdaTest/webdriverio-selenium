@@ -6,6 +6,6 @@
 
 tasks:
   # - init: npm install
-  - command: npm install & npm run single
+  - command: npm install; npm run single;
 
 
