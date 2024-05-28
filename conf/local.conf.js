@@ -17,6 +17,11 @@ exports.config = {
       video: true,
       console: true,
       network: true,
+      accessibility : true,                 // Enable accessibility testing
+      accessibility.wcagVersion: 'wcag21a', // Specify WCAG version (e.g., WCAG 2.1 Level A)
+      accessibility.bestPractice: false,    // Exclude best practice issues from results
+      accessibility.needsReview: true       // Include issues that need review
+
     },
   ],
 
