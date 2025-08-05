@@ -8,12 +8,6 @@ jobs:
       - checkout
 
       - run:
-          name: Show LambdaTest Credentials (For Debug Only)
-          command: |
-            echo "Username: $LT_USERNAME"
-            echo "Access Key: $LT_ACCESS_KEY"
-
-      - run:
           name: Install dependencies
           command: npm install
 
