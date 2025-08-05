@@ -5,8 +5,8 @@ jobs:
     docker:
       - image: cimg/node:18.20
     environment:
-      LT_USERNAME: $LT_USERNAME
-      LT_ACCESS_KEY: $LT_ACCESS_KEY
+      LT_USERNAME: varunkumarb
+      LT_ACCESS_KEY: LT_KKkSe0kYnq4nzjNBLJmk0c1HSo1PUWtH7exYP8zVemT6dyw
     steps:
       - checkout
       - run:
