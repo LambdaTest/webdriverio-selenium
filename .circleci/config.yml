@@ -4,17 +4,25 @@ jobs:
   run-tests:
     docker:
       - image: cimg/node:18.20
-    environment:
-      LT_USERNAME: varunkumarb
-      LT_ACCESS_KEY: LT_KKkSe0kYnq4nzjNBLJmk0c1HSo1PUWtH7exYP8zVemT6dyw
     steps:
       - checkout
+
+      - run:
+          name: Show LambdaTest Credentials (For Debug Only)
+          command: |
+            echo "Username: $LT_USERNAME"
+            echo "Access Key: $LT_ACCESS_KEY"
+
       - run:
           name: Install dependencies
           command: npm install
+
       - run:
-          name: Run single test
-          command: npm run single
+          name: Run single test with env
+          command: |
+            export LT_USERNAME=$LT_USERNAME
+            export LT_ACCESS_KEY=$LT_ACCESS_KEY
+            npm run single
 
 workflows:
   version: 2
