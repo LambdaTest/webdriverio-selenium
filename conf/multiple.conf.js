@@ -1,6 +1,6 @@
 exports.config = {
-user: process.env.LT_USERNAME || "YOUR LAMBDATEST USERNAME",
-key: process.env.LT_ACCESS_KEY || "YOUR LAMBDATEST ACCESS KEY”,
+   user: process.env.LT_USERNAME || "YOUR LAMBDATEST USERNAME",
+   key: process.env.LT_ACCESS_KEY || "YOUR LAMBDATEST ACCESS KEY",
 
   updateJob: false,
   specs: ["../tests/specs/multiple_test.js"],
