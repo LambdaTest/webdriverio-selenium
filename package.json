@@ -25,6 +25,7 @@
   "dependencies": {
     "@wdio/cli": "^8.27.1",
     "@wdio/local-runner": "^8.27.0",
-    "@wdio/mocha-framework": "^8.27.0"
+    "@wdio/mocha-framework": "^8.27.0",
+    "selenium-webdriver": "^4.38.0"
   }
 }
