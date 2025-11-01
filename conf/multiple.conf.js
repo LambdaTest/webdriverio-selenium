@@ -1,6 +1,6 @@
 exports.config = {
-  user: process.env.LT_USERNAME || "YOUR LAMBDATEST USERNAME",
-  key: process.env.LT_ACCESS_KEY || "YOUR LAMBDATEST ACCESS KEY",
+   user: process.env.LT_USERNAME || "YOUR LAMBDATEST USERNAME",
+   key: process.env.LT_ACCESS_KEY || "YOUR LAMBDATEST ACCESS KEY",
 
   updateJob: false,
   specs: ["../tests/specs/multiple_test.js"],
@@ -17,10 +17,7 @@ exports.config = {
       video: true,
       console: false,
       network: false,
-      accessibility : false,                 // Enable accessibility testing
-      accessibility.wcagVersion: 'wcag21a', // Specify WCAG version (e.g., WCAG 2.1 Level A)
-      accessibility.bestPractice: false,    // Exclude best practice issues from results
-      accessibility.needsReview: false       // Include issues that need review
+      accessibility: false,
     },
   ],
 

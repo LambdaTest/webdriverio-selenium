@@ -6,6 +6,6 @@ describe('Lambdatest Demo Test', function() {
     const input = await browser.$('*[id="sampletodotext"]');
     await input.setValue('Lambdatest\n');
     const title = await browser.getTitle();
-    assert(title.match(/Sample page - lambdatest.com/i));
+    assert(title.match(/Modern To-Do App | LambdaTest/i));
   });
 });
