@@ -2,7 +2,7 @@ var assert = require('assert');
 
 describe('Lambdatest Demo Test', function() {
   it('Lambdatest Demo TestCase', async function () {
-    await browser.url('https://lambdatest.github.io/sample-todo-app/')
+    await browser.url('https://www.testmuai.com/selenium-playground/todo-app/')
     const firstElement = await browser.$('*[name="li1"]');
     await firstElement.click();
     const secondElement = await browser.$('*[name="li2"]');
@@ -10,6 +10,6 @@ describe('Lambdatest Demo Test', function() {
     const input = await browser.$('*[id="sampletodotext"]');
     await input.setValue('Lambdatest\n');
     const title = await browser.getTitle();
-    assert(title.match(/Modern To-Do App | LambdaTest/i));
+    assert(title.match(/Selenium Grid Online/i));
   });
 });
